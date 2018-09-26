@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCF_Poker" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCF_Poker" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCF_Poker/PokerServer/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="Player">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bestCards" nillable="true" type="tns:ArrayOfCard" />
+      <xs:element minOccurs="0" name="bestIdCombine" type="xs:int" />
+      <xs:element minOccurs="0" name="bestSumOfCard" type="xs:int" />
+      <xs:element minOccurs="0" name="bet" type="xs:int" />
+      <xs:element minOccurs="0" name="bigBlind" type="xs:boolean" />
+      <xs:element minOccurs="0" name="cb" nillable="true" type="xs:anyType" />
+      <xs:element minOccurs="0" name="endMove" type="xs:boolean" />
+      <xs:element minOccurs="0" name="idroom" type="xs:int" />
+      <xs:element minOccurs="0" name="image" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="index" type="xs:int" />
+      <xs:element minOccurs="0" name="isMoveNow" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isOpenCard" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isPlayNow" type="xs:boolean" />
+      <xs:element minOccurs="0" name="money" type="xs:int" />
+      <xs:element minOccurs="0" name="placeId" type="xs:int" />
+      <xs:element minOccurs="0" name="playerCards" nillable="true" type="tns:ArrayOfCard" />
+      <xs:element minOccurs="0" name="smallBlind" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Player" nillable="true" type="tns:Player" />
+  <xs:complexType name="ArrayOfCard">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Card" nillable="true" type="tns:Card" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCard" nillable="true" type="tns:ArrayOfCard" />
+  <xs:complexType name="Card">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Mast" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" type="xs:int" />
+      <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Card" nillable="true" type="tns:Card" />
+  <xs:complexType name="ArrayOfRoom">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Room" nillable="true" type="tns:Room" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRoom" nillable="true" type="tns:ArrayOfRoom" />
+  <xs:complexType name="Room">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="bank" type="xs:int" />
+      <xs:element minOccurs="0" name="cards" nillable="true" type="tns:ArrayOfCard" />
+      <xs:element minOccurs="0" name="cropieCards" nillable="true" type="tns:ArrayOfCard" />
+      <xs:element minOccurs="0" name="firstCheck" type="xs:int" />
+      <xs:element minOccurs="0" name="idCard" type="xs:int" />
+      <xs:element minOccurs="0" name="idPlaceBigBlind" type="xs:int" />
+      <xs:element minOccurs="0" name="isSuffle" type="xs:boolean" />
+      <xs:element minOccurs="0" name="maxBet" type="xs:int" />
+      <xs:element minOccurs="0" name="newCicle" type="xs:boolean" />
+      <xs:element minOccurs="0" name="nextRound" type="xs:boolean" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="place" nillable="true" type="q1:ArrayOfint" />
+      <xs:element minOccurs="0" name="playerReady" type="xs:int" />
+      <xs:element minOccurs="0" name="players" nillable="true" type="tns:ArrayOfPlayer" />
+      <xs:element minOccurs="0" name="room" type="xs:int" />
+      <xs:element minOccurs="0" name="tableCards" nillable="true" type="tns:ArrayOfCard" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Room" nillable="true" type="tns:Room" />
+  <xs:complexType name="ArrayOfPlayer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Player" nillable="true" type="tns:Player" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlayer" nillable="true" type="tns:ArrayOfPlayer" />
+</xs:schema>

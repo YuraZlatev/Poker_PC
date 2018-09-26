@@ -1,0 +1,12 @@
+C:\Users\Yura\Desktop\WCF_Poker\WCF_Poker\bin\Release\WCF_Poker.dll.config
+C:\Users\Yura\Desktop\WCF_Poker\WCF_Poker\bin\Release\WCF_Poker.dll
+C:\Users\Yura\Desktop\WCF_Poker\WCF_Poker\bin\Release\WCF_Poker.pdb
+C:\Users\Yura\Desktop\WCF_Poker\WCF_Poker\obj\Release\WCF_Poker.csprojResolveAssemblyReference.cache
+C:\Users\Yura\Desktop\WCF_Poker\WCF_Poker\obj\Release\WCF_Poker.dll
+C:\Users\Yura\Desktop\WCF_Poker\WCF_Poker\obj\Release\WCF_Poker.pdb
+C:\Users\Yura\Desktop\Покер\WCF_Poker\WCF_Poker\bin\Release\WCF_Poker.dll.config
+C:\Users\Yura\Desktop\Покер\WCF_Poker\WCF_Poker\bin\Release\WCF_Poker.dll
+C:\Users\Yura\Desktop\Покер\WCF_Poker\WCF_Poker\bin\Release\WCF_Poker.pdb
+C:\Users\Yura\Desktop\Покер\WCF_Poker\WCF_Poker\obj\Release\WCF_Poker.csprojResolveAssemblyReference.cache
+C:\Users\Yura\Desktop\Покер\WCF_Poker\WCF_Poker\obj\Release\WCF_Poker.dll
+C:\Users\Yura\Desktop\Покер\WCF_Poker\WCF_Poker\obj\Release\WCF_Poker.pdb

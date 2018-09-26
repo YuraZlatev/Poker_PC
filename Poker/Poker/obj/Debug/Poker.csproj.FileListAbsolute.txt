@@ -1,0 +1,14 @@
+C:\Users\Yura\Desktop\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\Yura\Desktop\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\Yura\Desktop\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\MainWindow.g.cs
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\App.g.cs
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker_MarkupCompile.cache
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker_MarkupCompile.lref
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\MainWindow.baml
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker.g.resources
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\Yura\Desktop\Poker\Poker\obj\Debug\Poker.pdb
